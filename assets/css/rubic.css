@@ -11351,7 +11351,7 @@ textarea {
   border: 2px solid #ff9a44;
   font-size: 25px;
   color: #ff9a44;
-  margin: auto;
+  /* margin: auto; */
 }
 
 /* Page Navbar*/
