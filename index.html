@@ -97,45 +97,44 @@
                     <div class="tabs-container">
                         <ul class="nav tab-nav" id="pills-tab">
                             <li class="item">
-                                <a class="link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"aria-selected="true" onclick="changeImage(1)">Tab 1</a>
+                                <a class="link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"aria-selected="true">Testimonio 1</a>
                             </li>
                             <li class="item">
-                                <a class="link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"aria-selected="false" onclick="changeImage(2)">Tab 2</a>
+                                <a class="link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"aria-selected="false">Testimonio 2</a>
                             </li>
                             <li class="item">
-                                <a class="link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"aria-selected="false" onclick="changeImage(3)">Tab 3</a>
+                                <a class="link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"aria-selected="false">Testimonio 3</a>
                             </li>
                         </ul>
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="pills-home">
-                                <h4 class="title">Control de Usuarios</h4>
-                                <p>Con nuestro sistema de control y autenticación de usuarios cada usuario tendra acceso unicamente a su perfil lo cual garantiza que el sera el unico que podra
-                                    registrar y marcar sus tiempos de trabajo o de descanso.
-                                </p>
-                                <p>Además nuestro sistema esta configurado de tal forma que cuando un usuario marque un nuevo horario la app inmediatamente despues cerrara su perfil automaticamente para evitar el problema
-                                    que otro usuario tenga acceso a ver o modificar su información.
+                                <h4 class="title"></h4>
+                                <p>Estoy muy impresionado con el servicio de TimeTrack. <br> 
+                                    Me ha ayudado a administrar mejor el tiempo de mi equipo y a identificar oportunidades de mejora en nuestra eficiencia. <br>
+                                    La plataforma es muy fácil de usar y ofrece una gran cantidad de información valiosa. Sin duda, recomendaría TimeTrack a cualquier empresa que quiera mejorar su productividad y administración del tiempo.
+                                    <br><br>
+                                    <strong>Mario Nuñez - Emprendedor de negocio</strong>
                                 </p>
                             </div>
                             <div class="tab-pane fade" id="pills-profile">
-                                <h4 class="title">Interfaz simple y moderna</h4>
-                                <p>la interfaz de nuestra aplicación es simple e intuitiva, en la cual se presenta la información mas importante del usuario en ese momento.</p>
-                                <p><strong>Experiencia de usuario agradable</strong></p>
-                                <p>La simplicidad de nuestra interfaz hace que el usuario no se sienta cargado con demasiada información, ademas de que las opciones mas relevantes se muestran de manera sencilla a fin de que el usuario
-                                    pueda encontrar rapidamente lo que busca.
+                                <h4 class="title"></h4>
+                                <p>Excelente diseño de aplicación muy amigable con el usuario y la interfaz grafica no es muy dificil de manipular. Esta aplicación ayuda a reducir el tiempo de trabajo y tambien el tiempo de realizar dichas actividades.
+                                    <br><br>
+                                    <strong>Susana Villalta - Gerente Multinacional</strong>
                                 </p>
                             </div>
                             <div class="tab-pane fade" id="pills-contact">
-                                <h4 class="title">Resumen de actividades diarias</h4>
-                                <p>Al final de jornada laboral la app presentara el resumen final de todos los registros hechos por el usuario durante el dia, asi mismo podra ver las horas productivas de ese dia, asi como sus horas de descanso.
+                                <h4 class="title"></h4>
+                                <p>La app es facil de usar ademas de que tien funciones nuy buenas como poder calcular los tiempos que se toma en realizar una actividad, de tal forma que se puede optimizar mucho ese tiempo para poder realizar todas misactividades a tiempo.
                                     <br><br>
-                                   De forma adicional se tiene la opción que el usuario pueda escribir un resumen de las actividades del dia para poder llevar el control de las actividades que realiza en su trabajo.
+                                    <strong>Jaime Carrillo - Empleado</strong>
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 d-none d-lg-block align-self-center">
-                    <img src="assets/imgs/App1.png" alt="" class="w-100 tower" id="imgapp">
+                    <img src="assets/imgs/eiffel-tower.svg" alt="" class="w-100 tower" id="imgapp">
                 </div>
             </div>                  
         </div>                      
@@ -160,13 +159,5 @@
 
     <!-- Rubic js -->
     <script src="assets/js/rubic.js"></script>
-
-    <script>
-        function changeImage(identifier){
-            let appImage = document.getElementById("imgapp");
-            let filedirectory = "assets/imgs/App" + identifier + ".png";
-            appImage.setAttribute("src", filedirectory);
-        }
-    </script>
 </body>
 </html>
