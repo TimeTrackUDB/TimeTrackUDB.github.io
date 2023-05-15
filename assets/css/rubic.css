@@ -11656,3 +11656,67 @@ img.tower {
     line-height: 90px !important;
   }
 }
+
+.idh{
+  margin-top: 35px;
+  margin-left: -100px;
+}
+.idh1{
+  margin-top: 35px;
+  margin-left: -160px;
+}
+
+.lista{
+  margin:50px auto 0;
+  width: 40%;
+  overflow: hidden;
+  margin-right: 50px;
+}
+
+.lista ul{
+  display: flex;
+  padding: 0;
+  width: 900%;
+  animation: slide 16s infinite alternate linear;
+  
+}
+
+.lista li{
+  list-style: none;
+  width: 100%;
+}
+
+.lista img{
+  width: 65%;
+  height: 70%;
+}
+
+@keyframes slide{
+  0% {margin-left: 0%;}
+  6% {margin-left: 0%;}
+
+  12% {margin-left: -100%;}
+  18% {margin-left: -100%;}
+
+  24% {margin-left: -200%;}
+  30% {margin-left: -200%;}
+
+  36% {margin-left: -300%;}
+  42% {margin-left: -300%;}
+
+  48% {margin-left: -400%;}
+  54% {margin-left: -400%;}
+
+  60% {margin-left: -500%;}
+  66% {margin-left: -500%;}
+
+  72% {margin-left: -600%;}
+  78% {margin-left: -600%;}
+
+  84% {margin-left: -700%;}
+  90% {margin-left: -700%;}
+
+  96% {margin-left: -800%;}
+  100% {margin-left: -800%;}
+}
+
